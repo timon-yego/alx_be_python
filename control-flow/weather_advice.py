@@ -3,6 +3,7 @@
 weather = input("What's the weather like today? (sunny/rainy/cold):")
 
 # clothing recommendations
+
 if weather == "sunny":
     print(f"Wear a t-shirt and sunglasses.")
 elif weather == "rainy":
