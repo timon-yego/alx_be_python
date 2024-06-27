@@ -1,7 +1,7 @@
 #Simple Calculator with Match Case
 #prompt user to enter two numbers
-num1 = float(input(Enter first number:))
-num2 = float(input(Enter second number:))
+num1 = float(input(Enter the first number:))
+num2 = float(input(Enter the second number:))
 
 #ask for type of opereation
 operation = input(Choose the operation (+, -, *, /):)
