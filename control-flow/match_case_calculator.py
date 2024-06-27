@@ -4,7 +4,7 @@ num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 
 #type of operation to perform
-operation = input(Choose the operation (+, -, *, /):)
+operation = input("Choose the operation (+, -, *, /):")
 
 #perform calculations
 match operation:
