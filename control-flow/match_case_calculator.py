@@ -1,9 +1,9 @@
 #Simple Calculator with Match Case
 #prompt user to enter two numbers
-num1 = float(input(Enter the first number:))
-num2 = float(input(Enter the second number:))
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
 
-#ask for type of opereation
+#type of operation to perform
 operation = input(Choose the operation (+, -, *, /):)
 
 #perform calculations
