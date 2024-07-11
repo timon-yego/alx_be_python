@@ -6,7 +6,7 @@ def add_contact(name, number, email):
         "number": number,
         "email": email 
     }
-    contacts.append(contacts)
+    contacts.append(contact)
     print(f"Contact {name}added successfuly")
 
 def view_contact(contacts):
@@ -41,5 +41,5 @@ def delete_contact(contacts, name):
             print(f"{name} removed succesfully")
             return
     print(f"{name} not found")
-    
+
 
