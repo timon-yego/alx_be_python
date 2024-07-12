@@ -8,6 +8,6 @@ def safe_divide(numerator, denominator):
             
             return num / denom
         except ValueError:
-            return "Error: Non-numeric input. Please enter valid numbers"
+            return "Error: Please enter numeric values only."
         except ZeroDivisionError:
             return "Error: Cannot divide by zero."
