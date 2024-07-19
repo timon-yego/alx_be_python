@@ -34,5 +34,6 @@ class Library:
     def list_books(self):
         if not self.books:
             print("No books in the library.")
-        for book in self.books:
-            print(book)
+        else:
+            for book in self.books:
+                print(book)
