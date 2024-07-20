@@ -1,5 +1,5 @@
 class Calculator:
-    calculation_type = "Multiplication"
+    calculation_type = "Arithmetic Operations"
 
 
     @staticmethod
